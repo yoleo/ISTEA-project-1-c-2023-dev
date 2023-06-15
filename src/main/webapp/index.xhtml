@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html">
+	<head> 
+		<title>APP ISTEA</title>
+	</head>
+ 
+    <h:body>
+		<h1>Esta APP esta dentro de un contenedor del tipo Docker</h1>
+		<br></br>
+		<p>Los pasos fueron:</p>
+		<p>--Compilar el artefacto</p>
+		<p>--Moverlo al servidor que posee Docker Engine</p>
+		<p>--Realizar un Build de la Imagen</p>
+		<p>--Subirla a Docker Hub</p>
+		<br></br>
+		<h2>Nombre del repositorio:</h2>
+ 
+		<h:form>
+    		<h:inputText value="#{userBean.userName}" />
+    		<h:commandButton value="Submit" action="user" />
+    	</h:form>
+ 
+    </h:body>
+</html>
+
